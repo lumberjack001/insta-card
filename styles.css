@@ -33,7 +33,7 @@ section{
     justify-content: center;
 }
 .user-socials img{
-    width: 10%;
+    width: 15%;
 }
 .like-btn{
     padding-inline: 1rem;
@@ -42,5 +42,9 @@ section{
     border-radius: 0.5rem;
     border: 0;
     outline: 0;
-    /* background-color: ; */
+}
+@media (max-width: 400px) {
+    .card-container{
+        width: 85%;
+    }
 }
